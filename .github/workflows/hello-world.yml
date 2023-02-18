@@ -1,0 +1,10 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello World
+      run: python -c "print('Hello, World!')"
