@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Form</title>
+</head>
+<body>
+    {% if name %}
+    <a href="/hello">Back to form</a>
+    <br>
+    <a href="/">Back to home page</a>
+    <br>
+        <p>Hello {{ name }}!</p>
+    {% else %}
+    <a href="/hello">Go to form</a>
+    <br>
+        <p>Hello World!</p>
+    {% endif %}
+</body>
+</html>
