@@ -15,3 +15,6 @@ def hello_form():
         return render_template('hello.html', name=name)
 
     return render_template('helloWorldForm.html')
+
+if __name__ == "__main__":
+    app.run(debug=True)
